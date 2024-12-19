@@ -1,0 +1,7 @@
+[package]
+name = "simd-linalgb"
+version = "0.1.0"
+edition = "2021"
+rustflags = ["-C", "target-feature=+avx2"]
+
+[dependencies]
